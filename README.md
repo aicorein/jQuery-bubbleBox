@@ -1,6 +1,10 @@
 # jQuery-bubbleBox
 
+切换语言：中文 | [English](https://github.com/AiCorein/jQuery-bubbleBox/blob/main/README-en.md)
+
 ​	基于 jQuery 封装的气泡框插件。快速实现气泡框效果。
+
+
 
 
 
