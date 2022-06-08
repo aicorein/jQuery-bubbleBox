@@ -7,7 +7,7 @@
 
 
 
-
+​	
 ### 1、使用方法
 
 ​	首先需要引入 jQuery。
@@ -126,3 +126,6 @@ addBubble(parent, child, args)
 - 不要给气泡框设置 margin，margin 在该插件中会被置 0
 - 气泡框的 display 和 position 属性无需预先设置
 
+​	
+### 4、效果演示
+[去往演示](https://www.glowmem.com/projectsLab/tools/bubbleTest.html)
