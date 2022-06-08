@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>气泡框测试</title>
+  <script src="https://glowmem.com/static/js/jquery.min.js"></script>
+  <script src="https://glowmem.com/cdn/bubbleBox.min.js"></script>
+  <style>
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .outer-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-box {
+      background-color: skyblue;
+      width: 10rem;
+      padding: 1rem;
+      margin: 2rem 0;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .tip {
+      box-sizing: border-box;
+      background-color: lightgoldenrodyellow;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin: 1rem;
+      width: 240px;
+      min-height: 100px;
+      border-radius: 12px;
+    }
+  </style>
+  <script>
+    $(function () {
+      addBubbleAll('.main-box', '.tip', {
+        direction: 'right',
+        offsetX: 20,
+        fadeInDelay: 0,
+        fadeInTime: 100,
+        fadeOutDelay: 0,
+        fadeOutTime: 0,
+      })
+    })
+  </script>
+</head>
+
+<body>
+  <div class="container-sm">
+    <h1>气泡框测试</h1>
+    <div class="outer-box">
+      <div class="main-box">
+        <div class="main">这是主要内容</div>
+        <div class="tip">
+          <span>这是提示的标题</span>
+          <span>
+            提示段1<br>
+            提示段2 <br>
+            提示段3
+          </span>
+        </div>
+      </div>
+      <div class="main-box">
+        <div class="main">这是主要内容</div>
+        <div class="tip">
+          <span>这是提示的标题</span>
+          <span>
+            提示段1<br>
+            提示段2 <br>
+            提示段3 <br>
+          </span>
+          <span>
+            提示段1<br>
+            提示段2 <br>
+            提示段3
+          </span>
+        </div>
+      </div>
+      <div class="main-box">
+        <div class="main">这是主要内容</div>
+        <div class="tip">
+          <span>这是提示的标题</span>
+          <span>
+            提示段1<br>
+            提示段2 <br>
+            提示段3 <br>
+          </span>
+          <span>
+            提示段1<br>
+            提示段2 <br>
+            提示段3
+          </span>
+        </div>
+      </div>
+      <div class="main-box">
+        <div class="main">这是主要内容</div>
+        <div class="tip">
+          <span>这是提示的标题</span>
+          <span>
+            提示段1<br>
+            提示段2 <br>
+            提示段3
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
