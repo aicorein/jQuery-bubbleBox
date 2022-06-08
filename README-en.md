@@ -1,4 +1,5 @@
 # jQuery-bubbleBox
+Switch language：[Chinese](https://github.com/AiCorein/jQuery-bubbleBox/blob/main/README.md) | English
 
 ​	A bubbleBox plugin based on jQuery. Quickly achieve the bubble box effect.
 
