@@ -22,9 +22,6 @@
     </div>
 </div>
 ```
-
-​	
-
 ​	使用 `addBubbleAll()`  或 `addBubble()` 方法可以将 `inner-bubble-box` 转化为气泡框显示。
 
 ​	它们的原型：
@@ -60,7 +57,7 @@ addBubble(parent, child, args)
 | fadeOutTime  | 气泡框消失时的渐变时间（单位：ms）                 | 0       |
 
 
-
+​	
 ### 2、示例
 
 ​	为两个 `main-box` 加上气泡框：
@@ -84,7 +81,7 @@ addBubble(parent, child, args)
 </div>
 
 <script>
-	addBubbleAll('.main-box', '.main-box .tip', {
+    addBubbleAll('.main-box', '.main-box .tip', {
         offsetX: 30;
         offsetY: 20,
         fadeOutTime: 100,
@@ -108,7 +105,7 @@ addBubble(parent, child, args)
 </div>
 
 <script>
-	addBubble('.main-box:first', '.main-box .tip:first', {
+    addBubble('.main-box:first', '.main-box .tip:first', {
         offsetX: 30;
         offsetY: 20,
         fadeOutTime: 100,
@@ -117,7 +114,7 @@ addBubble(parent, child, args)
 ```
 
 
-
+​	
 ### 3、注意事项
 
 - 气泡框最好先将 width、 min-height 属性都设置固定值，如果不设置两个都不要设置
