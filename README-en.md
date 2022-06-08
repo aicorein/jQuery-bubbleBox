@@ -123,3 +123,6 @@ addBubble(parent, child, args)
 - Don't set margin for bubble box, it'll be set to 0 in process.
 - Display and position are no need to be set in advance.
 
+​	
+### 4、Demo
+[A simple demo](https://www.glowmem.com/projectsLab/tools/bubbleTest.html)
